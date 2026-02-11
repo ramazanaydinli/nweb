@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { GraduationCap, Phone, Mail, MapPin } from "lucide-react";
+import { GraduationCap, Phone, Mail, MapPin, Instagram } from "lucide-react";
 
 const Footer = () => {
     return (
@@ -74,6 +74,28 @@ const Footer = () => {
                             <li className="flex items-center gap-3">
                                 <MapPin className="h-5 w-5 text-[var(--color-accent)]" />
                                 <span>Online Eğitim (Zoom / Meet)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* Social Media */}
+                    <div>
+                        <h3 className="mb-6 text-sm font-bold uppercase tracking-wider text-slate-400">
+                            Bizi Takip Edin
+                        </h3>
+                        <ul className="space-y-4 text-sm text-slate-300">
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/odtuluakademi1/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-3 hover:text-[var(--color-accent)] transition-colors group"
+                                >
+                                    <div className="h-10 w-10 bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                                        <Instagram className="h-5 w-5 text-white" />
+                                    </div>
+                                    <span>@odtuluakademi1</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
