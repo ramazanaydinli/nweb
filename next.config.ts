@@ -1,15 +1,12 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  // 1. Statik HTML çıktısı almak için bu satır şart:
-  output: 'export',
-
-  // 2. GitHub Pages'de resim optimizasyonu sunucusu olmadığı için bunu kapatmalıyız:
-  images: {
-    unoptimized: true,
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // Statik HTML çıktısı için şart
   
-  // Not: Özel domain (odtuluakademi.com.tr) kullanacağın için basePath ayarına gerek yok!
+  // basePath SİLİNDİ (Özel domainde buna gerek yok)
+  
+  images: {
+    unoptimized: true, // Next.js Image optimizasyonunu kapatır
+  },
 };
 
 export default nextConfig;
