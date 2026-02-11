@@ -12,7 +12,7 @@ const Footer = () => {
                         <div className="flex items-center gap-3">
                             <div className="relative h-10 w-10">
                                 <Image
-                                    src="/logo.jpg"
+                                    src="/logo.png"
                                     alt="ODTÜ'lü Akademi Logo"
                                     fill
                                     className="object-contain"

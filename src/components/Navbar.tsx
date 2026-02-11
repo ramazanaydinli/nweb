@@ -26,7 +26,7 @@ const Navbar = () => {
                     <Link href="/" className="flex items-center gap-3 group">
                         <div className="relative h-12 w-12 transition-transform group-hover:scale-105">
                             <Image
-                                src="/logo.jpg"
+                                src="/logo.png"
                                 alt="ODTÜ'lü Akademi Logo"
                                 fill
                                 className="object-contain"
